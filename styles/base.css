@@ -1,0 +1,25 @@
+body{
+    font-family: var(--global-font);
+    padding: var(--min-padding);
+    color: var(--text-color);
+    line-break: normal;
+    font-size: var(--m-size);
+}
+p,h1,h2,section,dd{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: var(--xxl-size);
+    
+}
+h2{
+    font-size: var(--xl-size);
+    font-weight:700; 
+}
+h3{
+    font-size: var(--l-size);
+}
+article, nav, main, footer{
+max-width: 56rem;
+}
