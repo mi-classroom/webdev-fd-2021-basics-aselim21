@@ -2,14 +2,15 @@
     --global-font : 'Lato', sans-serif;
     --min-padding : 2rem;
     --max-padding : 10rem;
-    --text-color: rgb(112, 111, 111);
+    --text-color: black;
+    --text-color-light: rgb(112, 111, 111);
     --text-black: black;
     --xxl-size:5rem;
     --xl-size:3rem;
     --l-size:1.75rem;
     --l-mini-size:1.3rem;
     --m-size:1.0rem;
-    --s-size:0.9rem;
+    --s-size:0.8rem;
     --weight-400: 400;
     --weight-700: 700;
 }

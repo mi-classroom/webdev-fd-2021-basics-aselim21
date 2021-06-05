@@ -4,10 +4,18 @@ body{
     color: var(--text-color);
     line-break: normal;
     font-size: var(--m-size);
+    line-height: 1.5rem;
 
 }
-p,h1,h2,section,dd{
+h1,h2,section,dt{
+    margin-top: 2.5rem;
+    color: var(--text-color-light);
+    
+}
+
+p{
     margin-bottom: 1.5rem;
+    color: var(--text-color);
 }
 h1{
     font-size: var(--xxl-size);
@@ -24,11 +32,17 @@ h3{
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
-dt{
-    font-size: var(--m-size);
+h4{ 
+    color: white;
+    font-size: var(--l-size);
     font-weight: 700;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+dt{
+    
+    font-weight: 700;
+  
 }
 article, nav, main, footer{
 max-width: 56rem;
@@ -39,7 +53,7 @@ img {
     height: auto;
   }
 hr{
-    border: 0.35rem solid var(--text-color);
+    border: 0.35rem solid var(--text-color-light);
     margin: 3rem 0;
     width: 50%;
 }
@@ -49,7 +63,7 @@ td {
   padding: 0.3rem 0.5rem;
 }
 table{
-    margin: 2rem 0;
+    margin: 2rem 0 5rem 0;
 }
 
 .main-cell{
@@ -58,21 +72,20 @@ table{
 section, img {
     margin-bottom: 2rem;
 }
-figure{
-    padding: 2rem 0;
-}
+
 .citation{
-    padding: 1rem;
-    background-color: #f1eeee;
+    color: #F2BC57;
+    margin: 0;
+    font-weight: var( --weight-700);
+    font-style: italic;
+    font-size: var(--l-mini-size);
 }
-figcaption{
-    font-size: var(--s-size) ;
-    font-weight: var(--weight-700);
-}
+
 caption{
     font-size: var(--l-size);
     padding-bottom: 1rem;
     caption-side: top;
+
     /*left / right not working */
 }
 
@@ -80,6 +93,7 @@ footer{
     margin: 2rem 0;
     background-color:var(--text-color);
 }
+
 form {
     color: white;
 }
@@ -96,15 +110,22 @@ legend{
 input[type="submit"], input[type="reset"]{
     margin: 0 1rem 1rem 0 ;
 }
-em{
-    font-style: italic;
+em, figcaption{
+    font-weight: var(--weight-700);
+    font-size: var(--s-size);
+    color: var(--text-color-light);
     text-transform: uppercase;
+   
+}
+footer{
+    background-color: var(--text-color-light);
 }
 
   .marginalia__body{
     position: absolute;
     width: 8rem;
     font-size: var(--s-size);
+    line-height: 1.2rem;
   }
   .marginalia-and-text{
  padding : 0 0 0 12rem;
@@ -120,10 +141,12 @@ em{
   }
   */
   strong {
-
-    
     font-weight: var(--weight-700);
     }
+blockquote{
+    padding: 2.7rem 0;
+}
 
-
-
+nav{
+    
+}
