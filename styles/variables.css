@@ -1,0 +1,22 @@
+:root{
+    --global-font : 'Lato', sans-serif;
+    --min-padding : 2rem;
+    --max-padding : 10rem;
+    --text-color: rgb(59, 59, 59);
+    --text-color-light: rgb(112, 111, 111);
+    --text-color-white: #fff;
+    --text-color-orange: #F2BC57;
+    --xxl-size:5rem;
+    --xl-size:3rem;
+    --l-size:1.75rem;
+    --l-mini-size:1.3rem;
+    --m-size:1.0rem;
+    --s-size:0.8rem;
+    --weight-400: 400;
+    --weight-700: 700;
+    --space-biggest:5rem;
+    --space-bigger:2.5rem;
+    --space-big:2rem;
+    --space-medium:1.5rem;
+    --space-small:1rem;
+}

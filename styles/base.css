@@ -1,0 +1,160 @@
+body{
+    font-family: var(--global-font);
+    padding: var(--space-big);
+    color: var(--text-color);
+    line-break: normal;
+    font-size: var(--m-size);
+    line-height: var(--space-medium);
+    max-width: 56rem;
+    min-width: 30rem;
+}
+h1,h2,section,dt{
+    margin-top: var(--space-bigger);
+    color: var(--text-color-light);
+}
+h1{
+    font-size: var(--xxl-size);
+    padding: var(--space-big) 0;
+}
+h2,h3,h4{
+    font-size: var(--xl-size);
+    font-weight:var(--weight-700); 
+}
+/*is it good to define in one place just for the one value, then define everything else zusaetyliches*/
+h3,h4{ 
+    color: var(--text-color);
+    font-size: var(--l-size);
+    padding-top: var(--space-small);
+    padding-bottom: var(--space-big);
+}
+h4{ 
+    color: var(--text-color-white);
+}
+dt{
+    font-weight: var(--weight-700);
+}
+p{
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+img {
+    width: 100%;
+    height: auto;
+  }
+hr{
+    border: 0.35rem solid var(--text-color-light);
+    margin: 3rem 0;
+    width: 50%;
+}
+th,td {
+  border: 0.1rem solid #cecfd5;
+  padding: 0.3rem 0.5rem;
+}
+table{
+    margin: var(--space-big) 0 var(--space-biggest) 0;
+}
+
+.main-cell{
+    font-weight: bold;
+}
+section, img {
+    margin-bottom: 2rem;
+}
+
+.citation{
+    color: var(--text-color-orange);
+    margin: 0;
+    font-weight: var( --weight-700);
+    font-style: italic;
+    font-size: var(--l-mini-size);
+}
+
+caption{
+    font-size: var(--l-size);
+    padding-bottom: var(--space-small);
+    caption-side: top;
+
+    /*left / right not working */
+}
+
+footer{
+    margin: var(--space-big) 0;
+    background-color:var(--text-color);
+}
+
+form {
+    color: var(--text-color-white);
+}
+legend{
+    font-size: var(--l-mini-size);
+    padding: var(--space-small) 0;
+}
+.label-input-special {
+    margin:0.2rem 0 var(--space-small) 0 ;
+}
+.label-input input,  textarea{
+    margin:0.2rem 0 var(--space-small) 0;
+}
+input[type="submit"], input[type="reset"]{
+    margin: 0 var(--space-small) var(--space-small) 0 ;
+}
+em, figcaption{
+    font-weight: var(--weight-700);
+    font-size: var(--s-size);
+    color: var(--text-color-light);
+    text-transform: uppercase;
+   
+}
+footer{
+    background-color: var(--text-color-light);
+}
+.marginalia__body{
+    position: absolute;
+    width: 8rem;
+    font-size: var(--s-size);
+    line-height: 1.2rem;
+}
+.marginalia-and-text{
+ padding : 0 0 0 12rem;
+}
+/*  .marginalia__body {
+    right: 100%;
+    text-align: right;
+  }  
+  .marginalia__body--right {
+    left: 100%;
+    text-align: left;
+  }
+  */
+strong {
+    font-weight: var(--weight-700);
+}
+blockquote{
+    padding: var(--space-bigger) 0;
+}
+
+ul {
+   
+    margin: 0;
+    padding: 0;
+    width: 56rem;
+    overflow: hidden;
+    background-color: var(--text-color);
+    position: fixed;
+    top:0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: var(--text-color-white);
+    text-align: center;
+    padding: var(--space-small) var(--space-big);
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: var(--text-color-orange);
+  }
